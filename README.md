@@ -2,15 +2,15 @@
 
 ![](https://raw.githubusercontent.com/JavascriptBattle/javascript-battle-website/master/public/img/black-knight.png)
 
-#Javascript Battle - Hero Starter Repo#
+# Javascript Battle - Hero Starter Repo#
 
 ---
-##Play Now##
+## Play Now##
 
 If you are anxious to join the fight (and who wouldn't be), then all you need to do is fork this repo. It really is that easy. We have a lot of shenanigans going on in the background to make this happen and we have tried to make this process as seamless as possible.
 
 
-####Steps To Play Now####
+#### Steps To Play Now####
 
   * If you haven't already, please sign up for [GitHub](https://github.com/join).
   * After signing up, navigate back to this page and at the top right of your screen, click the 'Fork' button.
@@ -20,14 +20,14 @@ If you are anxious to join the fight (and who wouldn't be), then all you need to
     * **Hint** - You can find this info by looking at the url when you are in your repo. For example, the url for my repo is 'github.com/forrestbthomas/hero-starter'. My username is 'forrestbthomas' and my repo name is 'hero-starter'.
   * At this point, you have a working repo, with working hero code and you can watch your hero tilt with the best in tomorrow's battle. Once you are ready, you can begin diving in to the code, to make your hero even stronger and make Javascript Battle even more glorious!
 
-##Advanced Play##
+## Advanced Play##
 
 1. Cloning, Adding and Committing
 2. The Hero's Brain
 3. Pushing and Waiting
 4. Testing your hero code
 
-####Cloning, Adding and Committing####
+#### Cloning, Adding and Committing####
 You already have a working hero. You have watched the epic-ness that is your champion battling against other noble heroes. However, there comes a time in every hero's journey, when training becomes necessary.
 In order to upgrade your hero's code you will first need to clone your hero-starter repo on to your local machine. If you are new to Git, this may sound intimidating, but once you get the hang of it, it will become second nature. The purpose of this Readme is not to give an overview of Git, but to give you enough to get started. If you want to learn more, and we definitely recommend that you do, you can check out these great resources:
   * [Git Documentation](http://git-scm.com/doc)
@@ -35,7 +35,7 @@ In order to upgrade your hero's code you will first need to clone your hero-star
   * [Git Immersion](http://gitimmersion.com/)
   * [Git Cheatsheet](http://www.git-tower.com/blog/git-cheat-sheet-detail/)
 
-######Steps######
+###### Steps######
   * Navigate to your repo and find the 'HTTPS clone URL' button on the right-hand side of the page, about half-way down. Make sure you are cloning with 'HTTPS' and click the 'Copy to Clipboard' button.
   * Create a new folder on your file system somewhere and navigate to that folder in the command line.
     * If you are new to the command line, a quick Google search will return some good results for command line introductions on your OS.
@@ -79,7 +79,7 @@ This will bring up a prompt in your terminal for you to write a message. This me
   * When done, close the window by pressing "ESC", ":", "w" and "q".
   * Now, Git knows about your changes and has a record of them. Before moving on to 'pushing,' let's pause and take a look at what is going on in hero.js.
 
-####The Hero's Brain####
+#### The Hero's Brain####
 Inside of hero.js is some Javascript code. If you have never taken a look at Javascript before, we would recommend going through some online resources to get acclimated.
   * [Codecademy](http://www.codecademy.com/)
   * [Khan Academy](https://www.khanacademy.org/)
@@ -107,11 +107,11 @@ module.exports = helpers;
 ```
 This allows our site to pull this code from your repo and use it in tomorrow's game.
 
-####Pushing####
+#### Pushing####
 
 Once you have changed your hero to be the ultimate Javascript champion, you will need to push your changes to GitHub.
 
-######Steps######
+###### Steps######
   * On the command line, navigate to your hero code directory.
   * After adding and committing your changes, type in the following command:
 ```
@@ -126,11 +126,11 @@ git push origin master
 
 If we can make our site better in any way or make any instructions or code more explicit, please let us know. Until then, may the javascripts be with you!
 
-####Testing####
+#### Testing####
 
 We have a testing site coming soon.  For now, though, you can still test your hero code on your own!  There are two ways to do this:
 
-######Option 1: Make sure your code doesn't have errors######
+###### Option 1: Make sure your code doesn't have errors######
 
   * On the command line, navigate to your hero code directory.
   * After making sure you have Node and NPM installed, type in the following commands:
@@ -140,7 +140,7 @@ npm test
 ```
   * If both tests pass, your code doesn't have any obvious errors!
 
-######Option 2: Put your hero in a mini-battle######
+###### Option 2: Put your hero in a mini-battle######
 
   * On the command line, navigate to your hero directory.
   * After making sure you have Node installed, type in the following command:
